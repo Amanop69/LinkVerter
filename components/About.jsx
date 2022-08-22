@@ -11,7 +11,7 @@ const About = () => {
           <h1 className="sm:text-3xl text-2xl font-medium font-poppins title-font mb-2 text-gray-900">LinkVerter Converts All Links You Desire</h1>
           <div className="h-1 w-20 bg-red-500 rounded"></div>
         </div>
-        <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-poppins">It Doesn't Matter What Type of Links You Want To Convert Be it Facebook, Instagram, Youtube Links it Must Be Streamable the Rest Will Be Done By LinkVerter. </p>
+        <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-poppins">{`It Doesn't Matter What Type of Links You Want To Convert Be it Facebook, Instagram, Youtube Links it Must Be Streamable the Rest Will Be Done By LinkVerter.`} </p>
       </div>
       <div className="flex flex-wrap -m-4">
         <div className="xl:w-1/4 md:w-1/2 p-4">

@@ -10,7 +10,7 @@ const Team = () => {
         <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
           <div className="h-full text-center">
           <Image src="/fr.png" width="60px" height="60px" alt='logo'/>
-            <p className="leading-relaxed font-poppins font-medium">Service To Humanity is What Aspires Us To Build LinkVerter. No Need To Surf Different Sites For Different Links LinkVerter is All You Need.</p>
+            <p className="leading-relaxed font-poppins font-medium">Service To Humanity is What Aspires Us To Build LinkVerter. No Need To Surf Different Sites htmlFor Different Links LinkVerter is All You Need.</p>
             <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
             <h2 className="text-gray-900 font-semibold font-poppins title-font tracking-wider text-sm">FEAR</h2>
             <p className="text-gray-500 font-poppins font-medium">Senior Product Designer</p>
@@ -28,7 +28,7 @@ const Team = () => {
         <div className="lg:w-1/3 lg:mb-0 p-4">
           <div className="h-full text-center">
           <Image src="/pr.png" width="60px" height="60px" alt='logo'/>
-            <p className="leading-relaxed font-poppins font-medium">Legends Say "Good Things Will Eventually Came To End" Well That Just a Proverb I am Here To Make LinkVerter Work Till The Day of Judgement</p>
+            <p className="leading-relaxed font-poppins font-medium">{`Legends Say "Good Things Will Eventually Came To End" Well That Just a Proverb I am Here To Make LinkVerter Work Till The Day of Judgement`}</p>
             <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
             <h2 className="text-gray-900 font-semibold font-poppins title-font tracking-wider text-sm">PRINCE</h2>
             <p className="text-gray-500 font-poppins font-medium">Senior Manager</p>
